@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from '../../../Header/Header';
-import './Page1.css';
 
-const Page1 = () => {
+const Page3 = () => {
     return (
         <>
             <Header></Header>
@@ -12,10 +11,10 @@ const Page1 = () => {
                     <div className='d-flex justify-content-center'>
                         <div className='d-flex flex-direction-column align-items-center boxWidth'>
                             <div>
-                                <p className='text-start mt-4'>Email address *</p>
-                                <input className='w-100' type="text" />
-                                <button className='w-100 mt-4 resetButton p-1'>RESET MY PASSWORD</button>
-                                <p><b>Back to</b> Login Page</p>
+
+                                <input className='w-100 mt-5' type="text" placeholder='New Password' />
+                                <input className='w-100 mt-4' type="text" placeholder='Confirm Password' />
+                                <button className='w-100 mt-4 mb-4 resetButton p-1'>RESET PASSWORD</button>
                             </div>
                         </div>
                     </div>
@@ -29,4 +28,4 @@ const Page1 = () => {
     );
 };
 
-export default Page1;
+export default Page3;

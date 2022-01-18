@@ -1,9 +1,9 @@
 .underline {
     text-decoration: none; 
     position: relative; 
-  }   
+}   
 
- .underline:after {
+.underline:after {
     position: absolute;
     content: '';
     height: 3px;
@@ -12,6 +12,32 @@
     left: 0;
     right: 0;
     width: 10%;
-    background: red;
- }
-  
+    background: #FF2365;
+}
+.resetBox{
+     border-top: 5px solid #FF2365;
+     border-radius: 3px;
+     background-color: #FFFFFF;
+     box-shadow: 0px 3px 10px 0px #888888;
+}
+.boxWidth{
+     width: 85%;
+}
+.resetButton{
+    background-color: #FF2365;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.wave1{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -2;
+}
+.wave2{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../../Header/Header';
-import './Page1.css';
 
-const Page1 = () => {
+const Page2 = () => {
     return (
         <>
             <Header></Header>
@@ -12,10 +12,8 @@ const Page1 = () => {
                     <div className='d-flex justify-content-center'>
                         <div className='d-flex flex-direction-column align-items-center boxWidth'>
                             <div>
-                                <p className='text-start mt-4'>Email address *</p>
-                                <input className='w-100' type="text" />
-                                <button className='w-100 mt-4 resetButton p-1'>RESET MY PASSWORD</button>
-                                <p><b>Back to</b> Login Page</p>
+                                <p className='text-start mt-4'>A Password reset link is generated as per your request and sent to your email address. Please check your mailbox.</p>
+                                <p><b>Return to</b> <Link to="#">Login/Signup</Link></p>
                             </div>
                         </div>
                     </div>
@@ -29,4 +27,4 @@ const Page1 = () => {
     );
 };
 
-export default Page1;
+export default Page2;
