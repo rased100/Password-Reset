@@ -10,7 +10,7 @@ const Page2 = () => {
                 <h2 className='underline'>Password Reset</h2>
                 <div className='resetBox mt-5'>
                     <p className='text-start mt-4'>A Password reset link is generated as per your request and sent to your email address. Please check your mailbox.</p>
-                    <p><b>Return to</b> <Link to="#">Login/Signup</Link></p>
+                    <p><b>Return to</b> <Link className='link' to="#">Login/Signup</Link></p>
                 </div>
             </div>
             <div>

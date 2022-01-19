@@ -10,7 +10,7 @@ const Page4 = () => {
                 <h2 className='underline'>Password Reset</h2>
                 <div className='resetBox mt-5'>
                     <p className='mt-4'>Password Reset Done successfully.</p>
-                    <p><b>Return to</b> <Link to="#">Login/Signup</Link></p>
+                    <p><b>Return to</b> <Link className='link' to="#">Login/Signup</Link></p>
                 </div>
             </div>
             <div>

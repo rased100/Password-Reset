@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../../Header/Header';
 import './Page1.css';
 
@@ -12,7 +13,7 @@ const Page1 = () => {
                     <p className='text-start mt-4'>Email address *</p>
                     <input className='w-100' type="text" />
                     <button className='w-100 mt-4 resetButton p-1'>RESET MY PASSWORD</button>
-                    <p><b>Back to</b> Login Page</p>
+                    <p><b>Back to</b> <Link className='link' to="#">Login Page</Link></p>
                 </div>
             </div>
             <div>
