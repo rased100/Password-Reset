@@ -5,19 +5,12 @@ const Page3 = () => {
     return (
         <>
             <Header></Header>
-            <div className='d-flex flex-column mt-3'>
+            <div className='d-flex flex-column align-items-center mt-3'>
                 <h2 className='underline'>Password Reset</h2>
-                <div className='w-25 align-self-center resetBox mt-5'>
-                    <div className='d-flex justify-content-center'>
-                        <div className='d-flex flex-direction-column align-items-center boxWidth'>
-                            <div>
-
-                                <input className='w-100 mt-5' type="text" placeholder='New Password' />
-                                <input className='w-100 mt-4' type="text" placeholder='Confirm Password' />
-                                <button className='w-100 mt-4 mb-4 resetButton p-1'>RESET PASSWORD</button>
-                            </div>
-                        </div>
-                    </div>
+                <div className='resetBox mt-5'>
+                    <input className='w-100 mt-4' type="text" placeholder='New Password' />
+                    <input className='w-100 mt-4' type="text" placeholder='Confirm Password' />
+                    <button className='w-100 mt-4 resetButton p-1'>RESET MY PASSWORD</button>
                 </div>
             </div>
             <div>

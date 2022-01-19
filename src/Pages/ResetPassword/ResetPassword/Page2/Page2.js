@@ -6,17 +6,11 @@ const Page2 = () => {
     return (
         <>
             <Header></Header>
-            <div className='d-flex flex-column mt-3'>
+            <div className='d-flex flex-column align-items-center mt-3'>
                 <h2 className='underline'>Password Reset</h2>
-                <div className='w-25 align-self-center resetBox mt-5'>
-                    <div className='d-flex justify-content-center'>
-                        <div className='d-flex flex-direction-column align-items-center boxWidth'>
-                            <div>
-                                <p className='text-start mt-4'>A Password reset link is generated as per your request and sent to your email address. Please check your mailbox.</p>
-                                <p><b>Return to</b> <Link to="#">Login/Signup</Link></p>
-                            </div>
-                        </div>
-                    </div>
+                <div className='resetBox mt-5'>
+                    <p className='text-start mt-4'>A Password reset link is generated as per your request and sent to your email address. Please check your mailbox.</p>
+                    <p><b>Return to</b> <Link to="#">Login/Signup</Link></p>
                 </div>
             </div>
             <div>

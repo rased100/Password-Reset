@@ -11,17 +11,19 @@
     margin: 0 auto;
     left: 0;
     right: 0;
-    width: 10%;
+    width: 130px;
     background: #FF2365;
 }
 .resetBox{
+     width: 40%;
+     padding: 20px;
      border-top: 5px solid #FF2365;
      border-radius: 3px;
      background-color: #FFFFFF;
      box-shadow: 0px 3px 10px 0px #888888;
 }
 .boxWidth{
-     width: 85%;
+     width: 100%;
 }
 .resetButton{
     background-color: #FF2365;
@@ -40,4 +42,35 @@
     left: 0px;
     bottom: 0px;
     z-index: -1;
+}
+
+@media screen and (max-width: 576px) {
+    .resetBox{
+        width: 85%;
+        padding: 10px;
+   }
+}
+@media screen and (max-width: 768px) {
+    .resetBox{
+        width: 80%;
+        padding: 10px;
+   }
+}
+@media screen and (max-width: 992px) {
+    .resetBox{
+        width: 75%;
+        padding: 10px;
+   }
+}
+@media screen and (max-width: 992px) {
+    .resetBox{
+        width: 70%;
+        padding: 10px;
+   }
+}
+@media screen and (max-width: 992px) {
+    .resetBox{
+        width: 50%;
+        padding: 10px;
+   }
 }
